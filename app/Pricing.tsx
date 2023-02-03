@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Heading, HStack, Text, Icon } from '@chakra-ui/react'
 import React from 'react'
-import checkMarkIcon from "./icons/ckeckMarkIcon"
+import checkMarkIcon from "./icons/ckeckMarkicon"
 
 export default function Pricing() {
   return (
