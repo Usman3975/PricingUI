@@ -4,9 +4,9 @@ import checkMarkIcon from "./icons/ckeckMarkicon"
 
 export default function Pricing() {
   return (
-    <Box width="950px" m="auto" mt="-200" bg="white" borderRadius={"16px"} overflow="hidden"
+    <Box maxW="950px" mx={{ base: "20px", lg: "auto"}} mt="-175" bg="white" borderRadius={"16px"} overflow="hidden"
     boxShadow={"0px 20px 25px -5px rgb(0, 0, 0, 0.1), 0px 10px 10px -5px rgb(0, 0, 0, 0.04)"}>
-        <Flex>
+        <Flex direction={{ base: "column", md: "column", lg: "row"}}>
         <Box bg="#d7d2df" p="60px" textAlign="center">
             <Text fontSize="24px" fontWeight="bold">Premium PRO</Text>
             <Heading fontSize="40px">$329</Heading>
